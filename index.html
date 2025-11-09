@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bare Button</title>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+    <p id="msg"></p>
+
+    <script>
+      // Minimal inline behavior: update the paragraph when clicked
+      document.getElementById('btn').addEventListener('click', function () {
+        document.getElementById('msg').textContent = 'Button clicked';
+      });
+    </script>
+  </body>
+</html>
